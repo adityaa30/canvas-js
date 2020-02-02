@@ -38,7 +38,7 @@ class Particle {
     this.y = window.innerHeight / 2;
     this.color = new GradientColor();
 
-    this.width = Math.max(window.innerWidth, window.innerHeight) + 1000;
+    this.width = Math.max(window.innerWidth, window.innerHeight) + 100;
     console.log(window.innerWidth, window.innerHeight);
     this.delta = {
       width: -(0.03 * this.width),
